@@ -1,0 +1,128 @@
+/* GLOBAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222222;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #dbeafe;
+  padding: 30px 0;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+/* SECTION */
+
+.section {
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #1d4ed8;
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin-bottom: 15px;
+}
+
+/* SHARED BACKGROUND BOX */
+
+.bg-box {
+  height: 220px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Background-color */
+.bg-color-demo {
+  background-color: #2563eb;
+}
+
+/* background-image */
+.bg-image-demo {
+  background-image: url(images/no-castle.jpg);
+  color: black;
+}
+
+/* background-repeat */
+.bg-repeat-demo {
+  background-image: url(images/fog-castle.jpg);
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+}
+
+/* background-size */
+.bg-size-demo {
+  background-image: url(images/snowy-castle.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 300px; */
+  /* background-size: 100% 100%; */
+  /* background-size: contain; */
+  background-size: cover;
+}
+
+/* background-position */
+.bg-position-demo {
+  background-image: url(images/forest-castle.jpg);
+  background-size: cover;
+  background-position: center center;
+  /* background-position: left bottom; */
+}
+
+/* background-attachment */
+.bg-attachment-demo {
+  background-image: url(images/reflection-castle.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.scroll-space {
+  height: 1000px;
+  padding: 20px;
+}
+
+/* background shorthand */
+.bg-shorthand-demo {
+  /* background-color: chartreuse;
+  background-image: url(images/sunset-castle.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  background: chartreuse url(images/sunset-castle.jpg) center center / contain
+    no-repeat;
+}
